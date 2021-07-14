@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class EjemploArreglos {
 
     public static void main(String[] args) {
@@ -11,6 +13,8 @@ public class EjemploArreglos {
         productos[4] = "MacBook Air";
         productos[5] = "Chromecast 4ta generación";
         productos[6] = "Bicicleta Oxford";
+
+        Arrays.sort(productos);
 
         String pro1 = productos[0];
         String pro2 = productos[1];
@@ -31,6 +35,8 @@ public class EjemploArreglos {
         System.out.println("productos[4] = " + pro5);
         System.out.println("productos[5] = " + pro6);
         System.out.println("productos[6] = " + pro7);
+
+
 
         int [] numeros = new int[4];
 
